@@ -1,6 +1,6 @@
 # Lascodia Launcher themes
 
-The theme gallery for [Lascodia Launcher](https://github.com/budieprof): every theme in
+The theme gallery for Lascodia Launcher: every theme in
 **Themes → Browse gallery** comes from [`index.json`](index.json) in this repository.
 
 A theme is a small JSON file: colours, shapes, a font and built-in features to switch on (such as an
