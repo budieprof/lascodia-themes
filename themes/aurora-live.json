@@ -1,0 +1,20 @@
+{
+  "id": "aurora-live",
+  "name": "Aurora Live",
+  "author": "Lascodia samples",
+  "format": 1,
+  "colors": {
+    "ground": "#04121F",
+    "panel": "#062A3A",
+    "text": "#FFFFFF",
+    "muted": "#D2F5EE",
+    "accent": "#3FE0C0",
+    "onAccent": "#03201A",
+    "focus": "#FFFFFF"
+  },
+  "surface": "liquid-glass",
+  "font": "sans",
+  "corner": 34,
+  "artStrength": 1.0,
+  "features": ["ambient-motion", "big-clock"]
+}

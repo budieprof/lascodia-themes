@@ -1,0 +1,20 @@
+{
+  "id": "synthwave",
+  "name": "Synthwave",
+  "author": "Lascodia samples",
+  "format": 1,
+  "colors": {
+    "ground": "#12021F",
+    "panel": "#260A3D",
+    "text": "#FFFFFF",
+    "muted": "#F5C8FF",
+    "accent": "#FF3FA4",
+    "onAccent": "#1A0012",
+    "focus": "#4FF3FF"
+  },
+  "surface": "liquid-glass",
+  "font": "condensed",
+  "corner": 14,
+  "artStrength": 1.0,
+  "features": ["aurora", "scanlines", "tilt", "chime"]
+}

@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "themes": [
+    {
+      "id": "aurora-live",
+      "name": "Aurora Live",
+      "author": "Lascodia samples",
+      "format": 1,
+      "colors": {
+        "ground": "#04121F",
+        "panel": "#062A3A",
+        "text": "#FFFFFF",
+        "muted": "#D2F5EE",
+        "accent": "#3FE0C0",
+        "onAccent": "#03201A",
+        "focus": "#FFFFFF"
+      },
+      "surface": "liquid-glass",
+      "font": "sans",
+      "corner": 34,
+      "artStrength": 1.0,
+      "features": [
+        "ambient-motion",
+        "big-clock"
+      ]
+    },
+    {
+      "id": "paper-tilt",
+      "name": "Paper Tilt",
+      "author": "Lascodia samples",
+      "format": 1,
+      "colors": {
+        "ground": "#F4EFE6",
+        "panel": "#FFFDF8",
+        "text": "#1E1B16",
+        "muted": "#6B6357",
+        "accent": "#D9573B",
+        "onAccent": "#FFFFFF",
+        "focus": "#D9573B"
+      },
+      "surface": "paper",
+      "font": "serif",
+      "corner": 20,
+      "artStrength": 0.35,
+      "features": [
+        "tilt",
+        "chime"
+      ]
+    },
+    {
+      "id": "shelf",
+      "name": "Shelf",
+      "author": "Lascodia samples",
+      "format": 1,
+      "colors": {
+        "ground": "#1A0F08",
+        "panel": "#2B1A0E",
+        "text": "#FFF6EC",
+        "muted": "#E6CDB3",
+        "accent": "#E8915A",
+        "onAccent": "#1A0F08",
+        "focus": "#FFF6EC"
+      },
+      "surface": "solid",
+      "font": "serif",
+      "corner": 14,
+      "artStrength": 0.6,
+      "features": [
+        "shelf-library"
+      ]
+    },
+    {
+      "id": "synthwave",
+      "name": "Synthwave",
+      "author": "Lascodia samples",
+      "format": 1,
+      "colors": {
+        "ground": "#12021F",
+        "panel": "#260A3D",
+        "text": "#FFFFFF",
+        "muted": "#F5C8FF",
+        "accent": "#FF3FA4",
+        "onAccent": "#1A0012",
+        "focus": "#4FF3FF"
+      },
+      "surface": "liquid-glass",
+      "font": "condensed",
+      "corner": 14,
+      "artStrength": 1.0,
+      "features": [
+        "aurora",
+        "scanlines",
+        "tilt",
+        "chime"
+      ]
+    }
+  ],
+  "paid": []
+}

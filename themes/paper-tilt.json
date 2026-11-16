@@ -1,0 +1,20 @@
+{
+  "id": "paper-tilt",
+  "name": "Paper Tilt",
+  "author": "Lascodia samples",
+  "format": 1,
+  "colors": {
+    "ground": "#F4EFE6",
+    "panel": "#FFFDF8",
+    "text": "#1E1B16",
+    "muted": "#6B6357",
+    "accent": "#D9573B",
+    "onAccent": "#FFFFFF",
+    "focus": "#D9573B"
+  },
+  "surface": "paper",
+  "font": "serif",
+  "corner": 20,
+  "artStrength": 0.35,
+  "features": ["tilt", "chime"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "shelf",
+  "name": "Shelf",
+  "author": "Lascodia samples",
+  "format": 1,
+  "colors": {
+    "ground": "#1A0F08",
+    "panel": "#2B1A0E",
+    "text": "#FFF6EC",
+    "muted": "#E6CDB3",
+    "accent": "#E8915A",
+    "onAccent": "#1A0F08",
+    "focus": "#FFF6EC"
+  },
+  "surface": "solid",
+  "font": "serif",
+  "corner": 14,
+  "artStrength": 0.6,
+  "features": ["shelf-library"]
+}
