@@ -29,8 +29,12 @@ about you on your device.
   apply app lock, kids mode, bedtime and daily limits; and it reacts to a game controller's guide,
   Select, Start and B buttons and the volume keys, to open the guide menu and the volume pop-up.
   Every other key and anything you type passes straight through unread. It doesn't read what's on
-  the screen. It takes a screenshot only when you choose Screenshot in the guide menu, saved to
-  Pictures › Lascodia on your device. Nothing it sees leaves your device.
+  the screen. It takes a screenshot when you choose Screenshot in the guide menu, saved to
+  Pictures › Lascodia on your device; and, while a game is open, a picture of it about once a minute
+  to show on the game's card on Home ("Where you left off"). Those pictures stay in the launcher's
+  own storage on your device, aren't included in backups, and are deleted if you turn the feature
+  off. It also shows break reminders over a game if you turn them on. Nothing it sees leaves your
+  device.
 - **Wi-Fi and Bluetooth.** If you allow it, the launcher lists Wi-Fi networks and Bluetooth devices
   nearby so you can connect controllers and headphones without leaving it. On Android 13 and newer
   this uses "Nearby devices" permissions that don't give location; on older versions Android
