@@ -56,6 +56,11 @@ about you on your device.
   requires the location permission to list them. The launcher never uses or keeps your location.
 - **Family features.** Parental PIN (stored only as a salted hash), kids mode, bedtime, daily limits,
   guest mode and the weekly report all stay on your device.
+- **Crash log.** Off until you turn it on. Then, if the launcher crashes or freezes, it keeps a note
+  of what happened on your device: the error, the launcher and Android versions and the phone's
+  model, and for freezes and native crashes what Android itself recorded about the launcher's exit.
+  You can read it, clear it or share it from Settings; it's never sent anywhere by the launcher, and
+  never included in backups.
 
 ## What goes over the internet
 
@@ -69,7 +74,8 @@ about you on your device.
 - **The theme gallery.** Opening it downloads the list of themes from GitHub
   (raw.githubusercontent.com). No information about you is sent, beyond what any web request
   carries (such as your IP address). On copies not installed from Google Play, **Check now** in
-  Settings downloads the same list to read the newest version number, only when you tap it.
+  Settings downloads the same list to read the newest version number, only when you tap it, and
+  **Get it** opens the download page on GitHub in your browser.
 - **Paid themes.** Purchases are made through Google Play. When you buy a paid theme, the launcher
   sends the purchase receipt (a token from Google Play, the product's name and the app's name) to
   the Lascodia theme server, which checks it with Google and sends back the theme. The server does
