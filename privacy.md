@@ -34,7 +34,8 @@ about you on your device.
 - **Apps being installed.** The launcher reads Android's list of installs in progress (each app's
   name, icon and progress) to show them on Home while they download. On your device only.
 - **Players.** If you add players, each one's theme, Home, favourites and kids-mode settings are
-  kept with the launcher's other settings on your device.
+  kept with the launcher's other settings on your device, with a record of when each player was
+  switched to, so each has their own play time. On your device only.
 
 - **Calendar.** If you allow it, the Today card on Home shows your next events. Read on your device
   only.
@@ -52,6 +53,14 @@ about you on your device.
   and how fast it's going down while a game is open (read from Android, not kept). For apps you choose to leave
   their own controls to (such as a PC-game app), it stops listening to keys while they're open.
   Nothing it sees leaves your device.
+- **Game clips.** Off until you choose Record clips in the guide menu and agree to Android's own
+  screen-recording prompt (asked each time). While it's on, a notification says so, and the last
+  30 seconds of the screen are kept in the launcher's memory only, and dropped as they get older.
+  Nothing is saved until you choose Save last 30 seconds: then that clip is saved to
+  Movies › Lascodia on your device, marked with the app that was open, so that game's page in the
+  launcher can show it. No sound or microphone is recorded. Recording stops when you go back to the
+  launcher, when the screen turns off, or when you tap Stop, and what was in memory is dropped.
+  Clips stay on your device unless you share them yourself.
 - **Shizuku or root.** If you set either up, the launcher can close apps completely and check which
   apps are running, to offer Close in an app's options and to confirm an app really closed. That
   list is read on your device only and isn't kept.
@@ -85,6 +94,13 @@ about you on your device.
   games). Then, for retro games without box art, the launcher looks for it in libretro's public
   picture collection on GitHub (raw.githubusercontent.com and api.github.com), sending the games'
   names and systems. The pictures are kept on your device and deleted if you turn it off.
+- **Cover art from SteamGridDB.** Off until you paste your own SteamGridDB API key and turn on
+  **Cover art from SteamGridDB** (Settings › Games). Then, for games without cover art you picked,
+  the launcher sends the games' names to SteamGridDB (steamgriddb.com) with your key, and downloads
+  the pictures from SteamGridDB's servers. **Test key** sends one search to check the key. The key
+  stays on your device: it isn't put in backup files or sent settings, and isn't kept when the
+  launcher's settings are restored on another device. The pictures are kept on your device until you
+  choose **Forget online covers**. See SteamGridDB's privacy policy.
 - **Paid themes.** Purchases are made through Google Play. When you buy a paid theme, the launcher
   sends the purchase receipt (a token from Google Play, the product's name and the app's name) to
   the Lascodia theme server, which checks it with Google and sends back the theme. The server does
