@@ -31,6 +31,10 @@ about you on your device.
   the file names, RetroArch's playlists and box art in those folders only (Android asks you to allow
   each folder), to show the games in the Library. It reads nothing else on your storage, and a game
   opens in RetroArch or the app you chose for that folder.
+- **Apps being installed.** The launcher reads Android's list of installs in progress (each app's
+  name, icon and progress) to show them on Home while they download. On your device only.
+- **Players.** If you add players, each one's theme, Home, favourites and kids-mode settings are
+  kept with the launcher's other settings on your device.
 
 - **Calendar.** If you allow it, the Today card on Home shows your next events. Read on your device
   only.
@@ -40,7 +44,8 @@ about you on your device.
   Select, Start and B buttons and the volume keys, to open the guide menu and the volume pop-up.
   Every other key and anything you type passes straight through unread. It doesn't read what's on
   the screen. It takes a screenshot when you choose Screenshot in the guide menu, saved to
-  Pictures › Lascodia on your device; and, while a game is open, a picture of it every few minutes
+  Pictures › Lascodia on your device and marked with the app that was open, so that game's page in
+  the launcher can show it; and, while a game is open, a picture of it every few minutes
   and when you press the menu button, to show on the game's card on Home ("Where you left off"). Those pictures stay in the launcher's
   own storage on your device, aren't included in backups, and are deleted if you turn the feature
   off. It also shows break reminders over a game if you turn them on, and the battery's temperature
@@ -76,6 +81,10 @@ about you on your device.
   carries (such as your IP address). On copies not installed from Google Play, **Check now** in
   Settings downloads the same list to read the newest version number, only when you tap it, and
   **Get it** opens the download page on GitHub in your browser.
+- **Box art for retro games.** Off until you turn on **Find box art online** (Settings › Retro
+  games). Then, for retro games without box art, the launcher looks for it in libretro's public
+  picture collection on GitHub (raw.githubusercontent.com and api.github.com), sending the games'
+  names and systems. The pictures are kept on your device and deleted if you turn it off.
 - **Paid themes.** Purchases are made through Google Play. When you buy a paid theme, the launcher
   sends the purchase receipt (a token from Google Play, the product's name and the app's name) to
   the Lascodia theme server, which checks it with Google and sends back the theme. The server does
