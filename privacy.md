@@ -43,8 +43,9 @@ about you on your device.
   agree to it in the launcher and switch it on in Android's settings), it sees which app is open, to
   apply app lock, kids mode, bedtime and daily limits; and it reacts to a game controller's guide,
   Select, Start and B buttons and the volume keys, to open the guide menu and the volume pop-up.
-  Every other key and anything you type passes straight through unread. It doesn't read what's on
-  the screen. It takes a screenshot when you choose Screenshot in the guide menu, saved to
+  Every other key and anything you type passes straight through unread. When you close an app and
+  Shizuku isn't on, it opens that app's App info page and presses Force stop and OK for you, reading
+  that page only to find those buttons; apart from that, it doesn't read what's on the screen. It takes a screenshot when you choose Screenshot in the guide menu, saved to
   Pictures › Lascodia on your device and marked with the app that was open, so that game's page in
   the launcher can show it; and, while a game is open, a picture of it every few minutes
   and when you press the menu button, to show on the game's card on Home ("Where you left off"). Those pictures stay in the launcher's
